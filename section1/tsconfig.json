@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // 최신 ES 문법으로
+    "module": "ESNext", // 최신 ES 모듈로 or CommonJS
+    "outDir": "dist", // js 파일으르 "dist" directory에 생성
+    "strict": true, // 엄격한 타입 추론
+    "moduleDetection": "force",
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}

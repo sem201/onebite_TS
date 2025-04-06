@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "outDir": "dist",
+    "moduleDetection": "force",
+    "strict": true // 기본적으로 이게 strictNullCheks의 상위 옵션이므로 자동으로 같이 켜짐짐
+    // "strictNullChecks": false // 임시 널값 허용
+  },
+  "include": ["src"]
+}
