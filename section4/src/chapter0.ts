@@ -31,8 +31,10 @@ function introduce2(name = "홍길동", tall?: number) {
 introduce2("홍길동", 180);
 introduce2("홍길동");
 
-function getSum(...rest) {
-  // 가변적인 배열로 선언
+function getSum(...rest: number[]) {
+  // rest = 가변적인 배열로 선언
+  let sum = 0;
+  rest.forEach((item) => (sum += item));
 }
 
 getSum(1, 2, 3); // 6

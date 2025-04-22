@@ -18,5 +18,5 @@ type Operation2 = {
   (a: number, b: number): number;
 };
 const add2: Operation2 = (a, b) => a + b;
-const sub2: Operation2 = (a, b) => a - b; // Operation 타입을 이용하여 sub함수도 만들 수 있다.
-const mul2: Operation2 = (a, b) => a * b; // Operation 타입을 이용하여 mul함수도 만들 수 있다.
+const sub2: Operation2 = (a, b) => a - b;
+const mul2: Operation2 = (a, b) => a * b;
